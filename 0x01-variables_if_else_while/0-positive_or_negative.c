@@ -2,10 +2,10 @@
 #include <time.h>
 #include<stdlib.h>
 /**
-  * main - Entry point
-  * Description: 'A program that prints out whether a number is positive, negative or zero'
-  * Return: Always 0
-  */ 
+ * main - Prints if number is positive, negative or zero
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n;
