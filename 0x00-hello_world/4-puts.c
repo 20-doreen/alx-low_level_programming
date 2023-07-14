@@ -1,6 +1,7 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
  * main - Entry point
+ *
  * return: 0(Success)
  */
 int main(void)
