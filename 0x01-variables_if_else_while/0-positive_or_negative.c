@@ -1,9 +1,10 @@
 #include<stdio.h>
 #include <time.h>
+#include<stdlib.h>
 /*
- * main - A program that prints out whether positive,negative or zero
- *
- * Return: Always 0 (Success)
+ * main - Entry point
+ * Description: 'A program that prints out whether a number is positive, negative or zero'
+ * Return: Always 0
  */
 int main(void)
 {
@@ -15,7 +16,7 @@ int main(void)
 	{
 		printf("%d is positive\n", n);
 	}
-	else if (n == o)
+	else if (n == 0)
 	{
 		printf("%d is zero\n", n);
 	}
