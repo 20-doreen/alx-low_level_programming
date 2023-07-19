@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_times_table - prints the n times table, starting with 0
- * @n: int to be checked.
+ * @n: number of the times table.
  */
 void print_times_table(int n)
 {
