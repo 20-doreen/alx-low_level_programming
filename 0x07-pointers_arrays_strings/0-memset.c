@@ -3,7 +3,7 @@
  * _memset -  fills memory with a constant byte.
  * @s: starting addressvof memory to be filled
  * @b: the desired value
- * @: number of bytes to be changed
+ * @n: number of bytes to be changed
  *
  * Return: changed array with new value for n bytes
  */
