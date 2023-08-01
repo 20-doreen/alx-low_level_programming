@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_diagsums - a function that prints the sum of the two diagonals 
+ * print_diagsums - a function that prints the sum of the two diagonals.
  * @a: input
  * @size: input
  * Return: Always 0 (Success)
@@ -15,13 +15,16 @@ void print_diagsums(int *a, int size)
 
 	for (y = 0; y < size; y++)
 	{
-		sum1 = sum1 + a[y * size + y];
+		sum1 += a[y];
+		a += size;
 	}
 
-	for (y = size - 1; y >= 0; y--)
+	a -= size;
+
+	for (y = 0; y < size; y++)
 	{
-		sum2 += a[y * size + (size - - 1)];
+		sum2 += a[y];
 	}
 
-	printf("%d, %d\n", sum1,sum2);
+	printf("%d, %d\n", sum1, sum2);
 }
